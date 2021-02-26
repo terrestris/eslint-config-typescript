@@ -1,14 +1,26 @@
 {
   "name": "@terrestris/eslint-config-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "A eslint configuration to use with typescript and react",
+  "license": "BSD-2-Clause",
+  "author": "terrestris GmbH & Co. KG <info@terrestris.de>",
   "main": "index.js",
-  "author": "",
+  "contributors": [
+    {
+      "name": "Kai Volland",
+      "email": "volland@terrestris.de",
+      "url": "https://github.com/kaivolland"
+    }
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "typescript"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/terrestris/eslint-config-typescript"
   },
-  "license": "ISC",
   "peerDependencies": {
     "eslint": ">= 7",
     "@typescript-eslint/eslint-plugin": ">= 4",
