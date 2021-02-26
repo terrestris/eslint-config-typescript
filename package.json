@@ -1,0 +1,23 @@
+{
+  "name": "@terrestris/eslint-config-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terrestris/eslint-config-typescript"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">= 7",
+    "@typescript-eslint/eslint-plugin": ">= 4",
+    "eslint-plugin-react": ">= 7",
+    "eslint-plugin-react-hooks": ">= 4",
+    "typescript": ">= 3"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^4.15.2",
+    "typescript": "*"
+  }
+}
