@@ -9,8 +9,7 @@ module.exports = {
     'sourceType': 'module'
   },
   'plugins': [
-    '@typescript-eslint/eslint-plugin',
-    'react-hooks'
+    '@typescript-eslint/eslint-plugin'
   ],
   'rules': {
     'indent': [
@@ -116,8 +115,6 @@ module.exports = {
     'no-unused-expressions': 'warn',
     'no-unused-labels': 'warn',
     'radix': 'warn',
-    'spaced-comment': 'warn',
-    'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'error'
+    'spaced-comment': 'warn'
   }
 };

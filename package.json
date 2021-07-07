@@ -1,7 +1,7 @@
 {
   "name": "@terrestris/eslint-config-typescript",
   "version": "1.0.0",
-  "description": "A eslint configuration to use with typescript and react",
+  "description": "A eslint configuration to use with typescript",
   "license": "BSD-2-Clause",
   "author": "terrestris GmbH & Co. KG <info@terrestris.de>",
   "main": "index.js",
@@ -24,12 +24,13 @@
   "peerDependencies": {
     "eslint": ">= 7",
     "@typescript-eslint/eslint-plugin": ">= 4",
-    "eslint-plugin-react": ">= 7",
-    "eslint-plugin-react-hooks": ">= 4",
     "typescript": ">= 3"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^4.15.2",
+    "@typescript-eslint/parser": "^4.28.2",
     "typescript": "*"
+  },
+  "devDependencies": {
+    "np": "^7.5.0"
   }
 }
