@@ -25,15 +25,15 @@
     "release": "np --no-yarn"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">= 4",
-    "eslint": ">= 7",
-    "typescript": ">= 3"
+    "@typescript-eslint/eslint-plugin": ">= ~4",
+    "eslint": ">= ~7",
+    "typescript": ">= ~4"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^5.15.0",
-    "typescript": ">= 3"
+    "@typescript-eslint/parser": "^5.28.0",
+    "typescript": ">= ~4"
   },
   "devDependencies": {
-    "np": "^7.6.0"
+    "np": "^7.6.1"
   }
 }
