@@ -12,6 +12,10 @@ module.exports = {
     '@typescript-eslint/eslint-plugin'
   ],
   'rules': {
+    'quote-props': [
+      1,
+      'as-needed'
+    ],
     'indent': [
       'warn',
       2,
