@@ -31,7 +31,7 @@
     "typescript": ">= ~5"
   },
   "devDependencies": {
-    "np": "^8.0.4"
+    "np": "^9.2.0"
   },
   "engines": {
     "node": ">=18",
