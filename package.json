@@ -25,19 +25,16 @@
     "release": "np --no-yarn --no-tests"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">= ~6",
+    "@typescript-eslint/eslint-plugin": ">= ~7",
+    "@typescript-eslint/parser": ">= ~7",
     "eslint": ">= ~8",
-    "typescript": ">= ~5"
-  },
-  "dependencies": {
-    "@typescript-eslint/parser": "^6.0.0",
     "typescript": ">= ~5"
   },
   "devDependencies": {
     "np": "^8.0.4"
   },
   "engines": {
-    "node": ">=16",
-    "npm": ">=8"
+    "node": ">=18",
+    "npm": ">=9"
   }
 }
