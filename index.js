@@ -5,6 +5,7 @@ module.exports = {
   },
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
+    'project': true,
     'tsconfigRootDir': __dirname,
     'sourceType': 'module'
   },
@@ -24,6 +25,7 @@ module.exports = {
       }
     ],
     'keyword-spacing': 2,
+    '@typescript-eslint/switch-exhaustiveness-check': 'error',
     '@typescript-eslint/naming-convention': [
       'warn',
       {
@@ -66,7 +68,6 @@ module.exports = {
     'camelcase': 'warn',
     'comma-dangle': 'off',
     'curly': 'warn',
-    'default-case': 'warn',
     'dot-notation': 'warn',
     'eol-last': 'warn',
     'eqeqeq': [
@@ -120,5 +121,11 @@ module.exports = {
     'no-unused-labels': 'warn',
     'radix': 'warn',
     'spaced-comment': 'warn'
-  }
+  },
+  overrides: [
+    {
+      extends: ['plugin:@typescript-eslint/disable-type-checked'],
+      files: ['./**/*.js']
+    }
+  ]
 };
