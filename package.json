@@ -25,6 +25,7 @@
     "release": "np --no-yarn --no-tests"
   },
   "peerDependencies": {
+    "@stylistic/eslint-plugin": ">= ~2",
     "@typescript-eslint/eslint-plugin": ">= ~8",
     "@typescript-eslint/parser": ">= ~8",
     "eslint": ">= ~9",
