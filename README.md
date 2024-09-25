@@ -12,8 +12,9 @@ npm i -D @terrestris/eslint-config-typescript
 
 Can be omitted for already existing dependencies.
 ```bash
-npm i -D eslint@^8
-npm i -D @typescript-eslint/eslint-plugin@^6
+npm i -D eslint@^9
+npm i -D @typescript-eslint/eslint-plugin@^8
+npm i -D @stylistic/eslint-plugin@^2
 npm i -D typescript@^5
 ```
 
