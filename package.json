@@ -1,6 +1,6 @@
 {
   "name": "@terrestris/eslint-config-typescript",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "description": "A eslint configuration to use with typescript",
   "license": "BSD-2-Clause",
   "author": "terrestris GmbH & Co. KG <info@terrestris.de>",
