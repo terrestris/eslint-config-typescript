@@ -26,6 +26,35 @@ module.exports = {
 };
 ```
 
+4. Using eslint v9
+
+First of all, make sure you use a recent node version!
+
+After that, you can use a simple config like this to use this with eslint v9:
+
+```
+import tsParser from '@typescript-eslint/parser';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import js from '@eslint/js';
+import { FlatCompat } from '@eslint/eslintrc';
+
+const filename = fileURLToPath(import.meta.url);
+const dirname = path.dirname(filename);
+const compat = new FlatCompat({
+  baseDirectory: dirname,
+  recommendedConfig: js.configs.recommended,
+  allConfig: js.configs.all
+});
+
+export default [...compat.extends('@terrestris/eslint-config-typescript-react'), {
+  files: ['**/*.ts', '**/*.tsx'],
+  languageOptions: {
+    parser: tsParser,
+  },
+}];
+```
+
 ## Release
 
 ```bash
