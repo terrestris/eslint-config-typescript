@@ -19,6 +19,15 @@ npm i -D @stylistic/eslint-plugin@^4
 npm i -D typescript@^5
 ```
 
+Alternatively using bun:
+
+```bash
+bun i -D eslint
+bun i -D @typescript-eslint/eslint-plugin
+bun i -D @stylistic/eslint-plugin
+bun i -D typescript
+```
+
 3. Use config in your `eslintrc.js`
 
 ```javascript
