@@ -18,7 +18,7 @@ module.exports = {
       1,
       'as-needed'
     ],
-    'indent': [
+    '@stylistic/indent': [
       'warn',
       2,
       {
