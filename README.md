@@ -15,7 +15,7 @@ Can be omitted for already existing dependencies, also usually the latest versio
 ```bash
 npm i -D eslint@^10
 npm i -D typescript-eslint@^8
-npm i -D @stylistic/eslint-plugin@^5
+npm i -D @stylistic/eslint-plugin@beta
 npm i -D typescript@^6
 ```
 

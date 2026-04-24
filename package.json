@@ -28,14 +28,14 @@
     "release": "np --no-yarn --no-tests"
   },
   "peerDependencies": {
-    "@stylistic/eslint-plugin": ">= 5",
+    "@stylistic/eslint-plugin": ">= ~6.0.0-beta",
     "eslint": ">= 10",
     "jiti": ">= 2",
     "typescript": ">= 6",
     "typescript-eslint": ">= 8"
   },
   "devDependencies": {
-    "np": "^11.0.1"
+    "np": "^11.2.0"
   },
   "engines": {
     "node": ">=24",
