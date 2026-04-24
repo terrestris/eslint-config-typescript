@@ -25,14 +25,14 @@
     "release": "np --no-yarn --no-tests"
   },
   "peerDependencies": {
-    "@stylistic/eslint-plugin": ">= ~5",
+    "@stylistic/eslint-plugin": ">= ~6.0.0-beta",
     "@typescript-eslint/eslint-plugin": ">= ~8",
     "@typescript-eslint/parser": ">= ~8",
-    "eslint": ">= ~9",
-    "typescript": ">= ~5"
+    "eslint": ">= ~10",
+    "typescript": ">= ~6"
   },
   "devDependencies": {
-    "np": "^11.0.1"
+    "np": "^11.2.0"
   },
   "engines": {
     "node": ">=20",

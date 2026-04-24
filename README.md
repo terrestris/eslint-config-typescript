@@ -13,10 +13,10 @@ npm i -D @terrestris/eslint-config-typescript
 Can be omitted for already existing dependencies, also usually the latest version will be installed when omitting the version when running `bun/npm i -D <package>`.
 
 ```bash
-npm i -D eslint@^9
+npm i -D eslint@^10
 npm i -D @typescript-eslint/eslint-plugin@^8
-npm i -D @stylistic/eslint-plugin@^4
-npm i -D typescript@^5
+npm i -D @stylistic/eslint-plugin@beta
+npm i -D typescript@^6
 ```
 
 Alternatively using bun:
@@ -36,11 +36,11 @@ module.exports = {
 };
 ```
 
-4. Using eslint v9
+4. Using eslint v9+
 
 First of all, make sure you use a recent node version!
 
-After that, you can use a simple config like this to use this with eslint v9:
+After that, you can use a simple config like this to use this with eslint v9+:
 
 ```js
 import tsParser from '@typescript-eslint/parser';
