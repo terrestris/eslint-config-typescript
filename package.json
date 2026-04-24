@@ -1,10 +1,11 @@
 {
   "name": "@terrestris/eslint-config-typescript",
   "version": "10.0.0",
+  "type": "module",
   "description": "A eslint configuration to use with typescript",
   "license": "BSD-2-Clause",
   "author": "terrestris GmbH & Co. KG <info@terrestris.de>",
-  "main": "index.js",
+  "main": "eslint.config.ts",
   "contributors": [
     {
       "name": "Kai Volland",
@@ -15,7 +16,9 @@
   "keywords": [
     "eslint",
     "eslint-config",
-    "typescript"
+    "typescript",
+    "stylistic",
+    "terrestris"
   ],
   "repository": {
     "type": "git",
@@ -25,17 +28,17 @@
     "release": "np --no-yarn --no-tests"
   },
   "peerDependencies": {
-    "@stylistic/eslint-plugin": ">= ~5",
-    "@typescript-eslint/eslint-plugin": ">= ~8",
-    "@typescript-eslint/parser": ">= ~8",
-    "eslint": ">= ~9",
-    "typescript": ">= ~5"
+    "@stylistic/eslint-plugin": ">= 5",
+    "eslint": ">= 10",
+    "jiti": ">= 2",
+    "typescript": ">= 6",
+    "typescript-eslint": ">= 8"
   },
   "devDependencies": {
     "np": "^11.0.1"
   },
   "engines": {
-    "node": ">=20",
-    "npm": ">=10"
+    "node": ">=24",
+    "npm": ">=11"
   }
 }
